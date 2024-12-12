@@ -11,6 +11,7 @@ Clone the repository containing the project files using the following command :
           
 ### Step 2 : Create a Virtual Environment (Optional but Recommended)
 Create and activate a virtual environment to manage dependencies :
+          
           `python -m venv env`
 (On Windows - `env\Scripts\activate`)
 
@@ -18,6 +19,7 @@ Create and activate a virtual environment to manage dependencies :
 
 ### Step 3 : Install the required packages : 
 Install all the libraries and modules listed in requirements.txt by using the following command -
+          
           `pip install -r requirements.txt`
 
 ### Step 4 : Prepare the Dataset
@@ -25,6 +27,7 @@ Place your dataset file (`features_30_sec.csv`) in the specified path. Update th
 
 ### Step 5 : Train the Model
 Run the training script to train the Random Forest model and save it :
+          
           `python train_module.py`
 The trained model will be saved as 'best_rf_model.pkl' in the project directory.
 
