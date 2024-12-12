@@ -1,0 +1,15 @@
+The following Python libraries are required for the project:
+
+1. pandas   
+2. numpy   
+3. joblib  
+4. scikit-learn  
+5. librosa  
+6. requests  
+7. streamlit  
+8. os  
+9. warnings
+
+You can install the above packages using command prompt by using the following commands -
+
+pip install <library_name> (Make sure to use the correct library name.)
