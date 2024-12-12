@@ -2,7 +2,7 @@
 This project uses machine learning to classify music genres from audio files. It trains a Random Forest model on the GTZAN dataset and provides real-time predictions through a Streamlit interface, combining efficient preprocessing, feature extraction, and user-friendly interaction.
 
 ## INSTALLATION INSTRUCTIONS
-Follow the steps below to set up and run the Audio Genre Prediction project :
+Follow the steps below to set up and run the Music Genre Prediction project :
 
 ### Step 1: Clone the Repository :
 Clone the repository containing the project files using the following command :
