@@ -14,12 +14,16 @@ Clone the repository containing the project files using the following command :
 Create and activate a virtual environment to manage dependencies :
           
           python -m venv env
-(On Windows - `env\Scripts\activate`)
+On windows -
+          
+          env\Scripts\activate
 
-(On macOS/Linux - `source env/bin/activate`)
+On macOS/Linux -
+
+          source env/bin/activate
 
 ### Step 3 : Install the required packages :
-In this project, GTZAN dataset has been used, which should be available in the system before running the code.
+In this project, GTZAN dataset has been used. The dataset should be available in the system before running the code.
 
 Install all the libraries and modules listed in requirements.txt by using the following command -
 
@@ -36,7 +40,8 @@ The trained model will be saved as 'best_rf_model.pkl' in the project directory.
 
 ### Step 6 : Run the Streamlit Application
 Start the Streamlit application to predict audio genres :
-streamlit run test_module.py
+
+          streamlit run test_module.py
 
 ### Step 7 : Test with an Audio File
 Use the application interface to enter the URL of an audio file. The system will download the audio, extract its features, and predict its genre.
