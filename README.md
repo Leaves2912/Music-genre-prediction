@@ -1,7 +1,7 @@
-# Music-genre-prediction
+# Music Genre Prediction
 This project uses machine learning to classify music genres from audio files. It trains a Random Forest model on the GTZAN dataset and provides real-time predictions through a Streamlit interface, combining efficient preprocessing, feature extraction, and user-friendly interaction.
 
-## INSTALLATION INSTRUCTIONS -
+## INSTALLATION INSTRUCTIONS
 Follow the steps below to set up and run the Audio Genre Prediction project :
 
 ### Step 1: Clone the Repository :
@@ -45,3 +45,11 @@ Start the Streamlit application to predict audio genres :
 
 ### Step 7 : Test with an Audio File
 Use the application interface to enter the URL of an audio file. The system will download the audio, extract its features, and predict its genre.
+
+## Usage Instructions
+
+1. TRAIN MODULE: Run the train_module.py script to train a Random Forest model on the provided audio features dataset (features_30_sec.csv). The trained model is saved as best_rf_model.pkl.
+2. TEST MODULE: Run the test_module.py script to launch a Streamlit-based application for predicting audio genres.
+3. Enter the URL of an audio file in the Streamlit app to download and process the file.
+4. The app extracts audio features, uses the pre-trained model, and displays the predicted genre.
+5. Ensure the dataset and best_rf_model.pkl are correctly placed and accessible before running the scripts.
