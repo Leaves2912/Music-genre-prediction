@@ -18,7 +18,8 @@ Create and activate a virtual environment to manage dependencies :
 
 (On macOS/Linux - `source env/bin/activate`)
 
-### Step 3 : Install the required packages : 
+### Step 3 : Install the required packages :
+In this project, GTZAN dataset has been used, which should be available in the system before running the code.
 Install all the libraries and modules listed in requirements.txt by using the following command -
 
           pip install -r requirements.txt
