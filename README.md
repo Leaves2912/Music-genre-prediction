@@ -46,7 +46,7 @@ Start the Streamlit application to predict audio genres :
 ### Step 7 : Test with an Audio File
 Use the application interface to enter the URL of an audio file. The system will download the audio, extract its features, and predict its genre.
 
-## Usage Instructions
+## USAGE INSTRUCTIONS
 
 1. TRAIN MODULE: Run the train_module.py script to train a Random Forest model on the provided audio features dataset (features_30_sec.csv). The trained model is saved as best_rf_model.pkl.
 2. TEST MODULE: Run the test_module.py script to launch a Streamlit-based application for predicting audio genres.
