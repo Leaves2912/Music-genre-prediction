@@ -67,8 +67,13 @@ def extract_Music_features(file_path):
     ]
     return features
 
-# Load the pre-trained model
-rfc = joblib.load('best_rf_model.pkl')
+# Cached function to load the model
+@st.cache_resource
+def load_model():
+    return joblib.load('best_rf_model.pkl')
+
+# Load the model
+rfc = load_model()
 
 # Streamlit UI
 st.markdown("<h1 style='font-family: Times New Roman; font-size: 40px;'>Music Genre Prediction</h1>", unsafe_allow_html=True)
