@@ -6,6 +6,7 @@ import librosa
 import numpy as np
 import streamlit as st
 import os
+import tempfile
 
 st.markdown(
     """
@@ -86,7 +87,9 @@ st.markdown( """ <h2 style='font-family: Times New Roman; font-size: 28px; margi
 # Create the text input field
 Music_url = st.text_input("")
 
-save_path = 'E:/MINI PROJECT 2/TEST_FILE.wav'
+# Define save_path using a temporary directory
+temp_dir = tempfile.gettempdir()
+save_path = os.path.join(temp_dir, "TEST_FILE.wav")
 
 if st.button("Download and Predict"):
     if download_Music_file(Music_url, save_path):
